@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+    padding: 20px;
+}
+p {
+    font-size: 25pt;
+    background-color: lightgrey;
+    border: solid 5px;
+    text-align: center;
+    border-radius: 20px;
+}
