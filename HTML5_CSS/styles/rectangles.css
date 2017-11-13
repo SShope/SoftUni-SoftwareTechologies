@@ -1,0 +1,20 @@
+div{
+    padding: 10px;
+}
+
+div .outer{
+    border: blue dotted 4px;
+    border-radius: 20px;
+}
+
+div .middle{
+    border: red dashed 2px;
+    border-radius: 10px;
+}
+
+div .inner{
+    border: green solid 4px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20pt;
+}
