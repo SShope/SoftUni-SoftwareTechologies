@@ -18,4 +18,4 @@ function solution(nums){
     }
 }
 
-console.log(solution([5, "0 - 3", "3 - -1", "4 - 2"]));
+//console.log(solution([5, "0 - 3", "3 - -1", "4 - 2"]));
