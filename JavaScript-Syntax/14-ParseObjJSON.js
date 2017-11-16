@@ -3,17 +3,12 @@ function parseJSON(students){
     let studentObj;
     for (let stud of students){
 
-        let starr = stud.split(" -> ");
-        let name = starr[0];
-        let age = starr[1];
-        let grade = starr[2];
+        studentObj = JSON.parse(stud);
 
-        studentObj = {"Name" : name,"Age" : age,"Grade" : grade};
-
-        console.log("Name: " + studentObj.Name);
-        console.log("Age: " + studentObj.Age);
-        console.log("Grade: " + studentObj.Grade);
+        console.log("Name: " + studentObj.name);
+        console.log("Age: " + studentObj.age);
+        console.log("Date: " + studentObj.date);
     }
 }
 
-parseJSON()
+parseJSON(['{"name":"Gosho","age":10,"date":"19/06/2005"}', '{"name":"Tosho","age":11,"date":"04/04/2005"}']);
