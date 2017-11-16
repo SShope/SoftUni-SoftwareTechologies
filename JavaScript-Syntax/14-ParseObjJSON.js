@@ -1,4 +1,4 @@
-function objectify(students){
+function parseJSON(students){
 
     let studentObj;
     for (let stud of students){
@@ -15,3 +15,5 @@ function objectify(students){
         console.log("Grade: " + studentObj.Grade);
     }
 }
+
+parseJSON()
